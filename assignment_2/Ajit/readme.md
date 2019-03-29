@@ -18,7 +18,7 @@ Predict.py contains the code to predict using the given input while using the pa
 
 A RNN like model has been used to predict the sequence. 
 
-![Model_Architecture.jpg](img/model_architecture.jpg?raw=true "Model Architecture")
+![Model_Architecture.jpg](img/model_architecture.png?raw=true "Model Architecture")
 
 The model is then feed backed its output n times to get the next n terms.
 
