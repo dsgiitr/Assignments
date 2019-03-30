@@ -11,7 +11,8 @@ Output: 7, 41, 49, 90, 139, 229
 3. Make a predict.py file in which a user will input a,b,n and get the results.
 
 ## Approach
-To train a simple Linear Regression model using randomly generated dataset. 
+To train a simple Linear Regression model using randomly generated dataset using basic functionalities of pytorch . 
+
 ## Dataset
 Consisted of 3 columns : 
 1. value 1
@@ -20,7 +21,7 @@ Consisted of 3 columns :
 It was generated randomly and stored as a csv file 'mydata.csv' .
 
 ## Model
-A The Module.nn class was modified to add a single linear layer of input_dim = 1 and output_dim = 2 . The learning_rate = 0.00000001. Stochastic Gradient Descent was used as optimizer function . epochs = 500. Round-off function was used to round the results to integers ( reduce the propagation of error ) . 
+A The Module.nn class was modified to add a single linear layer of input_dim = 1 and output_dim = 2 . The learning_rate = 0.00000001. Stochastic Gradient Descent was used as optimizer function . epochs = 500. Round-off function was used to round the results to integers ( reduce the propagation of error ) . Trained entirely in CPU . 
 
 ## Results
 The model was successfully trained to add the values in the columns to give the output without using the summation operator . model() was used to generate the required fibonnacci sequence.
