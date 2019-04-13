@@ -13,3 +13,8 @@ In predict.ipynb run the function fibonacci with 3 inputs; a,b and n; and you wi
 ## Dataset:
 
 Dataset which was created is a text file containing 210 fibonacci sequences.
+
+## Result:
+
+Training error over all possible cases in the training set is less than 0.5%.
+
