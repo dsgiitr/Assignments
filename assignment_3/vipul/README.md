@@ -1,4 +1,4 @@
-#**Approach**
+#**Approach**#
 
 first defined the weights for the data set 
 then use the basic condition of SVM and brought down the weights
